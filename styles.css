@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;900&display=swap);
+
+body{
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins" ;
+}
+
+.logo_div img{
+    width: 100%;
+        /* border: 1px solid white; */
+}
+
+.logo_div{
+    width:150px;
+    margin: auto;
+}
+
+h1{
+    font-size: 50px;
+    /* margin-bottom: 0px; */
+
+}
+
+.main_container{
+    /* border: 2px solid white; */
+    height: 60vh;
+    margin: auto;
+    width: 75%;
+    margin-top:3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.teams{
+    width: 39%;
+    height: 370px;
+    /* border: 1px solid white; */
+    text-align: center;
+    border-radius: 3%;
+
+}
+
+.score_container{
+    width: 80%;
+    margin: auto;
+    height: 35%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.scores{
+    width: 50px;
+    /* margin: auto; */
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    /* padding: 1%; */
+
+}
+
+#team_1{
+    background-color: rgb(69, 69, 237);
+}
+
+#team_2{
+    background-color: rgb(17, 129, 17);
+}
+.score_count{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.btn_container  img{
+    width: 35%;
+    /* height: 90%; */
+}
+.btn_container{
+    width: 20%;
+    /* height: 10%; */
+    /* border: 2px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px; */
+}
